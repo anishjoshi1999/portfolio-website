@@ -1,397 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anish Joshi</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/aos.css">
-    <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-
-<body data-bs-spy="scroll" data-bs-target=".navbar">
-
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container flex-lg-column">
-            <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
-                <span class="h3 fw-bold d-block d-lg-none">Anish Joshi</span>
-                <img src="./assets/images/anish.jpg" class="d-none d-lg-block rounded-circle" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#work">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-
-                </ul>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="./mypic.jpg" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Anish Joshi</span>
+                </h1>
+                <p>
+                    Dedicated computer engineer with expertise in .NET, teaching, and a passion for tech innovation. Strong academic background and real-world experience.
+                </p>
+                <div class="btn-con">
+                    <a href="./AnishJoshiCV.pdf" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
             </div>
         </div>
-    </nav>
-    <!-- //NAVBAR -->
-
-    <!-- CONTENT WRAPPER -->
-    <div id="content-wrapper">
-
-        <!-- HOME -->
-        <section id="home" class="full-height px-lg-5">
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10">
-                        <h1 class="display-4 fw-bold" data-aos="fade-up">Anish <span class="text-brand">Joshi</span>
-                            <br>I build things for the web.
-                        </h1>
-                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I like making fun, interactive
-                            things with code. I also talk & write about those things.</p>
-                        <div data-aos="fade-up" data-aos-delay="600">
-                            <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
-                            <a href="#" class="link-custom">Call: (+977) 9863679399</a>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>My Tech Journey</h4>
+                    <p>
+                       As a computer engineer, I've dedicated myself to the world of .NET technologies, software development, and education. I constantly strive to expand my knowledge and stay at the forefront of the tech industry, while also guiding others on their own tech adventures.
+                    </p>
+                  
+                </div>
+                <div class="left-about">
+                    <h4>About My Teaching</h4>
+                    <p>
+                        Throughout my academic journey, I've been passionate about sharing knowledge and teaching. My goal is to inspire and educate, using innovative methods and real-world examples to make learning engaging and impactful.
+                    </p>
+                   
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">html5</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">css3</p>
+                        <div class="progress-con">
+                            <p class="prog-text">95%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">javascript</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">C#</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="react"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">NodeJS</p>
+                        <div class="progress-con">
+                            <p class="prog-text">87%</p>
+                            <div class="progress">
+                                <span class="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Python</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <h4 class="stat-title">My Timeline</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">May 2023 - present</p>
+                    <h5>.NET Trainee<span> - Cedar Gate Technologies</span></h5>
+                    <p>
+                        Actively developing with .NET, emphasizing code quality and expanding my framework expertise.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">Aug 2022 - Apr 2023</p>
+                    <h5>Assistant Lecture<span> - Kailali Multiple Campus</span></h5>
+                    <p>
+                        Taught Operating Systems, Object-Oriented Programming, C Language, and Microprocessors to BSC CSIT students. Employed innovative teaching methods with real-world examples. A valuable and fulfilling experience.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">Aug 2022 - Apr 2023</p>
+                    <h5>Assistant Lecture<span> - Sudur Pashchimanchal Academy (SPA)</span></h5>
+                    <p>
+                        Taught Computer Graphics and Artificial Intelligence to BIM students. Utilized engaging methods with real-world examples. Was thrilled to contribute to students' academic journeys in these dynamic fields.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">Jun 2022 - Dec 2022</p>
+                    <h5>Assistant Lecture<span> - Nepal Western Management and Engineering College</span></h5>
+                    <p>
+                        Taught BBA-BI 6th semester students, using engaging, real-world examples. Positive feedback and success validate my passion for education.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">Oct 2021 - May 2022</p>
+                    <h5>Assistant Lecture<span> - Koshi St. James H. S. College</span></h5>
+                    <p>
+                        Taught Operating Systems to BCA students during my 8th semester. Used innovative methods and real-world examples to engage and ensure their success. A unique experience while pursuing my own degree.
+                    </p>
+                </div>
+            </div>
         </section>
-        <!-- //HOME -->
-
-        <!-- SERVICES -->
-        <section id="services" class="full-height px-lg-5">
-            <div class="container">
-
-                <div class="row pb-4" data-aos="fade-up">
-                    <div class="col-lg-8">
-                        <h6 class="text-brand">MY SKILLS</h6>
-                        <h1>Skills That I Possess </h1>
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+            </div>
+            <p class="port-text">
+                Here is some of my work that I've done in various programming languages.
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port1.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Hamro Khabar</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.facebook.com/hamrokhaabaar" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="skills">
-                    <div class="skill">
-                        <div class="skill-name">HTML/CSS</div>
-                        <div class="skill-bar">
-                            <div class="skill-per" per="85"></div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port2.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Text Utilities</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://textutilsbyaj.netlify.app/" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
                         </div>
-                        <div class="skill">
-                            <div class="skill-name">JavaScript</div>
-                            <div class="skill-bar">
-                                <div class="skill-per" per="85"></div>
-                            </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port3.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Hamro Course</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://hamrocourse.cyclic.app/faculty" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
                         </div>
-                        <div class="skill">
-                            <div class="skill-name">Python</div>
-                            <div class="skill-bar">
-                                <div class="skill-per" per="85"></div>
-                            </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- <section class="container" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
+                </div>
+                <div class="blogs">
+                    <div class="blog">
+                        <img src="img/port6.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                How to Create Your Own Website
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
                         </div>
-                        <div class="skill">
-                            <div class="skill-name">SQL/NoSQL</div>
-                            <div class="skill-bar">
-                                <div class="skill-per" per="80"></div>
-                            </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog1.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                How to Become an Expert in Web Design
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog2.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Become a Web Designer in 10 Days
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog3.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Debbuging made easy with Web Inspector
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/port1.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Get started with Web Design and UI Design
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/port3.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                This is what you need to know about Web Design
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-
-        </section>
-        <!-- SERVICES -->
-
-        <!-- WORK -->
-        <section id="work" class="full-height px-lg-5">
-            <div class="container">
-
-                <div class="row pb-4" data-aos="fade-up">
-                    <div class="col-lg-8">
-                        <h6 class="text-brand">WORK</h6>
-                        <h1>My Recent Projects</h1>
-                    </div>
+        </section> -->
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
                 </div>
-
-                <div class="row gy-4">
-                    <div class="col-md-6" data-aos="fade-up">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/hamrokhabar.PNG" alt="Hamro Khabar">
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <p>
+                            Feel free to reach out to me with any questions, collaborations, or simply to connect. 
+                            I'm here to assist and discuss tech, education, or anything else you're interested in. 
+                            Your feedback and inquiries are highly valued!
+                        </p>
+                        
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location</span>
+                                </div>
+                                <p>
+                                    : Kathmandu,Nepal
+                                </p>
                             </div>
-                            <div class="card-custom-content p-4">
-                                <h4>Hamro Khabar</h4>
-                                <a href="https://www.facebook.com/hamrokhaabaar" class="link-custom"
-                                    target="_blank">View Live Demo</a>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>
+                                    <span>: anishjoshi1999@gmail.com</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Mobile Number</span>
+                                </div>
+                                <p>
+                                    <span>: +977 9863679399</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://www.facebook.com/anishjoshi1999/" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://github.com/anishjoshi1999" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/anishjoshi1999/" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6" data-aos="fade-up">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/hamrocourse.png" alt="">
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="YOUR NAME">
+                                <input type="email" required placeholder="YOUR EMAIL">
                             </div>
-                            <div class="card-custom-content p-4">
-                                <h4>HamroCourse</h4>
-                                <a href="https://hamrocourse.cyclic.app/faculty" class="link-custom"
-                                    target="_blank">View
-                                    Live Demo</a>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6" data-aos="fade-up">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/usermanagement.png" alt="">
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
                             </div>
-                            <div class="card-custom-content p-4">
-                                <h4>UserManagement</h4>
-                                <a href="https://usermanagement.cyclic.app/" class="link-custom" target="_blank">View
-                                    Live Demo</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6" data-aos="fade-up">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/convertcase.png" alt="">
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <h4>TextUtils</h4>
-                                <a href="https://textutilsbyaj.netlify.app/" class="link-custom" target="_blank">View
-                                    Live Demo</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Hello -->
-                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/openai.png" alt="openaiplayground">
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <h4>OpenAI Playground APP</h4>
-                                <a href="https://openaiplayground.vercel.app/" target="_blank" class="link-custom">View
-                                    Live Demo</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6" data-aos="fade-up">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/fintech.png" alt="">
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <h4>FinTech Landing Page</h4>
-                                <a href="https://62c267b3a2d42712edd7e5e1--venerable-sundae-eb5b84.netlify.app/"
-                                    target="_blank" class="link-custom">View Live Demo</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/tesla.png" alt="Tesla Landing Page">
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <h4>Tesla Landing Page</h4>
-                                <a href="https://teslabyanishjoshi.netlify.app/" target="_blank"
-                                    class="link-custom">View Live Demo</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <!-- //WORK -->
-
-        <!-- ABOUT -->
-        <section id="about" class="full-height px-lg-5">
-            <div class="container">
-
-                <div class="row pb-4" data-aos="fade-up">
-                    <div class="col-lg-8">
-                        <h6 class="text-brand">ABOUT</h6>
-                        <h1>My Education & Experience</h1>
-                    </div>
-                </div>
-
-                <div class="row gy-5">
-                    <div class="col-lg-6">
-
-                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Education</h3>
-                        <div class="row gy-4">
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>I learn whatever I want to learn.</h4>
-                                    <p class="text-brand mb-2">Thanks to the internet (Present - Dead)</p>
-                                    <p class="mb-0"></p>
-                                </div>
-                            </div>
-
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Bachelors of Computer Engineering</h4>
-                                    <p class="text-brand mb-2">IOE Purwanchal Campus, Dharan (2017 - 2022)</p>
-                                    <p class="mb-0"></p>
-                                </div>
-                            </div>
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>+2 Science</h4>
-                                    <p class="text-brand mb-2">Liverpool International College, Kathmandu (2015 - 2017)
-                                    </p>
-                                    <p class="mb-0"></p>
-                                </div>
-                            </div>
-
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>SLC</h4>
-                                    <p class="text-brand mb-2">Aishwarya Vidya Niketan, Dhangadhi (2015)</p>
-                                    <p class="mb-0"></p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-6">
-
-                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Experience</h3>
-                        <div class="row gy-4">
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>.NET Trainee</h4>
-                                    <p class="text-brand mb-2">Cedar Gate Technologies, Kathmandu (2023 May - Present)
-                                    </p>
-                                    <p class="mb-0"></p>
-                                </div>
-                            </div>
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Assistant Lecturer</h4>
-                                    <p class="text-brand mb-2">Kailali Multiple Campus, Dhangadhi (2022 July - 2023 April)
-                                    </p>
-                                    <p class="mb-0"></p>
-                                </div>
-                            </div>
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Assistant Lecturer</h4>
-                                    <p class="text-brand mb-2">Sudur Pashchimanchal Academy, Dhangadhi (2022 July -
-                                        2023 February)
-                                    </p>
-                                    <p class="mb-0"></p>
-                                </div>
-                            </div>
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Assistant Lecturer</h4>
-                                    <p class="text-brand mb-2">Nepal Western Academy, Dhangadhi (2022 June - 2022 December)
-                                    </p>
-                                    <p class="mb-0"></p>
-                                </div>
-                            </div>
-
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Assistant Lecturer</h4>
-                                    <p class="text-brand mb-2">Koshi St James, Itahari (2021 Oct - 2022 May)</p>
-                                    <p class="mb-0"></p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <!-- //ABOUT -->
-        <!-- CONTACT -->
-        <section id="contact" class="full-height px-lg-5">
-            <div class="container">
-
-                <div class="row justify-content-center text-center">
-                    <div class="col-lg-8 pb-4" data-aos="fade-up">
-                        <h6 class="text-brand">CONTACT</h6>
-                        <h1>Interested in working together? Let's talk
-                        </h1>
-                    </div>
-
-                    <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
-                        <form action="" method="post" class="row g-lg-3 gy-3" name="formName">
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" placeholder="Enter your name" name="name">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input type="email" class="form-control" placeholder="Enter your email" name="email">
-                            </div>
-                            <div class="form-group col-12">
-                                <input type="text" class="form-control" placeholder="Enter subject" name="subject">
-                            </div>
-                            <div class="form-group col-12">
-                                <textarea rows="4" class="form-control" placeholder="Enter your message"
-                                    name="message"></textarea>
-                            </div>
-                            <div class="form-group col-12 d-grid">
-                                <button type="submit" class="btn btn-brand">Contact me</button>
+                            <div class="submit-btn">
+                                <a href="#" class="main-btn">
+                                    <span class="btn-text">Send</span>
+                                    <span class="btn-icon"><i class="fas fa-send"></i></span>
+                                </a>
                             </div>
                         </form>
                     </div>
                 </div>
-
-
             </div>
         </section>
-        <!-- //CONTACT -->
+    </main>
 
-        <!-- FOOTER -->
-        <footer class="py-5 px-lg-5">
-            <div class="container">
-                <div class="row gy-4 justify-content-between">
-                    <div class="col-auto">
-                        <div class="social-icons">
-                            <a href="https://twitter.com/anishjoshi1999"><i class="lab la-twitter"></i></a>
-                            <a href="https://www.instagram.com/anish_joshi1999/"><i class="lab la-instagram"></i></a>
-                            <a href="https://github.com/anishjoshi1999"><i class="lab la-github"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- //FOOTER -->
-
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
     </div>
-    <!-- //CONTENT WRAPPER -->
-    <script src="./assets/js/form.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/aos.js"></script>
-    <script src="./assets/js/main.js"></script>
-    <script src="./assets/js/index.js"></script>
-
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
 </body>
-
 </html>
