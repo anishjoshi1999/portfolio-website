@@ -204,6 +204,57 @@ section {
   margin: 1.5rem 0;
   line-height: 2rem;
 }
+/* Add the following styles to your CSS */
+
+/* Button Styles */
+button.main-btn {
+  border: 1px solid var(--color-secondary);
+  border-radius: 30px;
+  color: inherit;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+button.main-btn .btn-text {
+  padding: 0 2rem;
+}
+
+button.main-btn .btn-icon {
+  background-color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+/* Hover Effect */
+button.main-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  transition: all 0.4s ease-out;
+  z-index: -1;
+}
+button {
+  background-color: transparent;
+}
+button.main-btn:hover {
+  transition: all 0.4s ease-out;
+}
+
+button.main-btn:hover::before {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-secondary);
+  transform: translateX(0);
+  transition: all 0.4s ease-out;
+}
 
 /*About*/
 .about-container {
